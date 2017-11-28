@@ -33,6 +33,11 @@
   padding: 10px 5px;
 }
 
+.swipe-card-header {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
 .swipe-container {
   max-width: 300px;
 }

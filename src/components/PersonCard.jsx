@@ -6,7 +6,7 @@ export const PersonCard = props => {
         <div className="swipe-container mx-auto">
             <div className="swipe-card mx-auto">
                 <img width="100%" height="300" className="swipe-image" src={props.src} alt="person" />
-                <h1>{props.name}</h1>
+                <h3 className="swipe-card-header">{props.name}</h3>
             </div>
             <div className="row swipe-buttons-container">
                 <div className="col-xs-6 mx-auto">
